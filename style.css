@@ -21,11 +21,7 @@
 }
 
 body, html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(775cabea434997976ba940f626e26297_1732026222627.jpg);
+
 }
 
 h2 {
@@ -39,13 +35,15 @@ h2 {
     text-align: center;
     padding: 20px;
     color: white;
-    
+    background-image: url('775cabea434997976ba940f626e26297_1732026222627.jpg');
+    background-size: cover; /* Ajusta a imagem para cobrir a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
     width: 100%;
     height: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    
 }
 
 .btn {
@@ -70,9 +68,9 @@ button[onclick="desvia(this)"] {
 
 .slideshow {
     position: fixed;
-    width: 400px;
-    height: 300px;
-    top: 50%;
+    width: 200px;
+    height: 150px;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
