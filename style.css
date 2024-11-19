@@ -30,7 +30,7 @@ body, html {
 
 h2 {
     font-family: var(--fonte-amor);
-
+    transform: translateX(-50px); /* Move 10px para a esquerda */
 }
 
 #conteudo {
