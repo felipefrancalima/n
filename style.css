@@ -26,8 +26,9 @@ body, html {
 
 h2 {
     font-family: var(--fonte-amor);
-    transform: translateY(60px); /* Move 30px para baixo */
+    transform: translate(-40px, 60px); /* Move 30px para a esquerda e 60px para baixo */
 }
+
 
 
 iframe {
