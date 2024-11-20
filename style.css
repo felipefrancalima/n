@@ -20,19 +20,17 @@
     --fonte-vida: 'vida', sans-serif;
 }
 
-body, html {
-
-}
 
 h2 {
     font-family: var(--fonte-amor);
     transform: translate(-40px, 60px); /* Move 30px para a esquerda e 60px para baixo */
 }
 
-
-
-iframe {
-    
+#spotify-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10; /* Para garantir que o iframe fique acima de outros elementos */
 }
 
 #conteudo {
@@ -41,7 +39,7 @@ iframe {
     text-align: center;
     padding: 20px;
     color: white;
-    background-image: url('775cabea434997976ba940f626e26297_1732026222627.jpg');
+    background-image: url('12.jpg');
     background-size: cover; /* Ajusta a imagem para cobrir a tela */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
